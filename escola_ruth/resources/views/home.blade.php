@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Bem Vindo a Escola Ruth {{$nome}}!</h1>
+<h1>Bem Vindo a Escola Ruth !</h1>
 </body>
 </html>

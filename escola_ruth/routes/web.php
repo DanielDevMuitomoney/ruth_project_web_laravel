@@ -16,6 +16,24 @@ use App\Http\Controllers\home;
 */
 
 Route::get('/', [home::class,'index']);
+
+
+
+
+Route::get('/atividades',function(){
+    return view('atividades');
+});
+
+
+#$_GET[]
+Route::get('/atividade/{id}', function($id){
+$rrrr=$id;
+return view('atividade',['id' => $rrrr]);
+});
+
+
+
+
 Route::get('/materias', [materias::class,'index']);
 Route::get('/matematica', [materias::class,'matematica']);
 Route::get('/portugues', [materias::class,'portugues']);

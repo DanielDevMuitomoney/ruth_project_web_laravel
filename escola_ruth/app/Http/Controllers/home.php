@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class home extends Controller
 {
-    public function index()
-    {$nome="Daniel Alvarez";
-        return view('home',['nome'=> $nome]);}
+    public function index(){
+    
+        return view('home');
+    }
 }

@@ -9,6 +9,9 @@ class materias extends Controller
     public function index()
     {
         $nome="Daniel Alvarez";
+        $idade=17;
+        $escolaridade="
+        3 ano do ensino Médio";
         return view('materias',['nome'=> $nome]);
     }
     public function matematica()
