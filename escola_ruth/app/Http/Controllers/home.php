@@ -10,4 +10,8 @@ class home extends Controller
     
         return view('home');
     }
+    public function contato()
+    {
+        return view('contato');
+    }
 }
