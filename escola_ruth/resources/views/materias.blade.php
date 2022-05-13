@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    @include('components.navbar')
     <div class="container" style="margin-top: 11vh;" >
     <!-- blade -->
     @foreach($materias as $k)
@@ -23,7 +24,7 @@
                 <p class="card-text">{{$k['desc']}}</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
-            <div style="text-align: center;margin-top: 9%;"> <a><button style="width: 30%;padding: 9px;" type="button" class="btn btn-success" >Success</button></a></div>
+            <div style="text-align: center;margin-top: 9%;"> <a href="/atividade/{{$k['id']}}"><button style="width:30%;padding: 9px;" type="button" class="btn btn-success">Entrar</button></a></div>
             </div>
             
             </div>

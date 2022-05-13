@@ -28,6 +28,7 @@ Route::get('/atividades',function(){
 #$_GET[]
 Route::get('/atividade/{id}', function($id){
 
+    
 return view('atividade',['id' => $id]);
 });
 

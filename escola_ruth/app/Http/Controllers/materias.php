@@ -12,11 +12,16 @@ class materias extends Controller
         [
             ['nome'=>'portugues',
             'img'=>'https://i.pinimg.com/originals/1a/20/b9/1a20b98d9037c4a7bc0d0878a11fbb8a.jpg',
-            'desc'=>'materia de portugues dahora dahora'],
+            'desc'=>'materia de portugues dahora dahora',
+            'id'=>1
+        ],
 
             ['nome'=>'matematica',
             'img'=>'https://i.pinimg.com/originals/19/6f/34/196f34198c763692c2def70648337280.png',
-            'desc'=>'materia de matematica dahora'],
+            'desc'=>'materia de matematica dahora',
+            'id'=>2,
+        ],
+
         ];
         return view('materias',['materias'=>$materias]);
     }
