@@ -13,12 +13,16 @@
 @if($id==1)
     <div class="container" style="margin-top: 4%;">
     <div class="card">
-  <div class="card-header">
-    Máteria de português.
+  <div class="card-header" style="text-align: center;">
+    <h1>Máteria de português.</h1>
   </div>
   <div class="card-body">
     <blockquote class="blockquote mb-0">
+
+<div style="padding: 16px;">
+
     <div class="card text-center">
+        
   <div class="card-header">
     Atividade
   </div>
@@ -35,27 +39,75 @@
 
 <div class="card text-center" style="margin-top:2% ;">
   <div class="card-header">
-    Featured
+    Prova
   </div>
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Prova do 2°bimestre</h5>
+    <p class="card-text">a prova será disponibilizada somente no horário de aula</p>
+    <a href="#" class="btn btn-primary">Entregar</a>
   </div>
   <div class="card-footer text-muted">
-    2 days ago
+    Data de entrega: amanhã
   </div>
 </div>
 
+</div>
     </blockquote>
   </div>
 </div>
 
     </div>
 @elseif($id==2)
-    <p>bem vindo a mat</p>
+<div class="container" style="margin-top: 4%;">
+    <div class="card">
+  <div class="card-header" style="text-align: center;">
+    <h1>Máteria de Matemática.</h1>
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+
+<div style="padding: 16px;">
+
+    <div class="card text-center">
+        
+  <div class="card-header">
+    Atividade
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Realizar as equações de 1°grau da apostila (pág.256)</h5>
+    <p class="card-text">todos os exercícios devem conter as contas</p>
+    <a href="#" class="btn btn-primary">Entregar</a>
+  </div>
+  <div class="card-footer text-muted">
+    Data de entrega: 18 de março
+  </div>
+</div>
+<!-- 2 att -->
+
+<div class="card text-center" style="margin-top:2% ;">
+  <div class="card-header">
+    Prova
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Prova do 2°bimestre</h5>
+    <p class="card-text">a prova será disponibilizada somente no horário de aula</p>
+    <a href="#" class="btn btn-primary">Entregar</a>
+  </div>
+  <div class="card-footer text-muted">
+    Data de entrega: amanhã
+  </div>
+</div>
+
+</div>
+    </blockquote>
+  </div>
+</div>
+
+    </div>
 
 @endif
+
+<br><br>
 </body>
 </html>
 
