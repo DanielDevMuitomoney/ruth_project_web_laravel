@@ -27,8 +27,8 @@ Route::get('/atividades',function(){
 
 #$_GET[]
 Route::get('/atividade/{id}', function($id){
-$rrrr=$id;
-return view('atividade',['id' => $rrrr]);
+
+return view('atividade',['id' => $id]);
 });
 
 
