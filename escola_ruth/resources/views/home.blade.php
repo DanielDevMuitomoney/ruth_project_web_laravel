@@ -69,7 +69,7 @@
         <div class="container">
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">Our Teachers</span></p>
-                <h1 class="mb-4">Meet Our Teachers</h1>
+                <h1 class="mb-4">Alguns do nossos professores</h1>
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <h4>Julia Smith</h4>
-                    <i>Music Teacher</i>
+                    <i>Professora de artes</i>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <h4>Jhon Doe</h4>
-                    <i>Language Teacher</i>
+                    <i>Professor matemática</i>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <h4>Mollie Ross</h4>
-                    <i>Dance Teacher</i>
+                    <i>Professor de dança</i>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <h4>Donald John</h4>
-                    <i>Art Teacher</i>
+                    <i>Professor de música</i>
                 </div>
             </div>
         </div>
@@ -146,61 +146,53 @@
     <div class="container-fluid py-5">
         <div class="container p-0">
             <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Testimonial</span></p>
-                <h1 class="mb-4">What Parents Say!</h1>
+                <p class="section-title px-5"><span class="px-2">Avaliações</span></p>
+                <h1 class="mb-4">O que os pais acham do nosso sistema!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item px-3">
-                    <div class="bg-light shadow-sm rounded mb-4 p-4">
-                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
-                    </div>
+                  
                     <div class="d-flex align-items-center">
                         <img class="rounded-circle" src="img/testimonial-1.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
+                            <h5>Anderson</h5>
+                            <i>Mecânico</i>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item px-3">
                     <div class="bg-light shadow-sm rounded mb-4 p-4">
                         <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                        Quando meu filho netrou no Tempo de Aprender, ele conseguiu melhorar muito em matemática, podem assinar!
                     </div>
                     <div class="d-flex align-items-center">
                         <img class="rounded-circle" src="img/testimonial-2.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
+                            <h5>Alessandra</h5>
+                            <i>Dona de casa</i>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item px-3">
                     <div class="bg-light shadow-sm rounded mb-4 p-4">
                         <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                        Meu Deus! Que plataforma maravilhosa, meu filho só tirava 4 em história, mas agora é só 8 pra cima!
                     </div>
                     <div class="d-flex align-items-center">
                         <img class="rounded-circle" src="img/testimonial-3.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
+                            <h5>Jerson</h5>
+                            <i>Biologo</i>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item px-3">
                     <div class="bg-light shadow-sm rounded mb-4 p-4">
                         <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                        Em apenas 5 dias meu filho já aprendeu a conjugar verbos!
                     </div>
-                    <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="img/testimonial-4.jpg" style="width: 70px; height: 70px;" alt="Image">
-                        <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
-                        </div>
-                    </div>
+                  
+                    
                 </div>
             </div>
         </div>
@@ -212,22 +204,22 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Latest Blog</span></p>
-                <h1 class="mb-4">Latest Articles From Blog</h1>
+                <p class="section-title px-5"><span class="px-2">ultimas Postagens</span></p>
+                <h1 class="mb-4">Blogs</h1>
             </div>
             <div class="row pb-3">
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
                         <img class="card-img-top mb-2" src="img/blog-1.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
-                            <h4 class="">Diam amet eos at no eos</h4>
+                            <h4 class="">Materias on-line</h4>
                             <div class="d-flex justify-content-center mb-3">
-                                <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
+                                <small class="mr-3"><i class="fa fa-user text-primary"></i> Anna</small>
+                                <small class="mr-3"><i class="fa fa-folder text-primary"></i>Design</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
-                            <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
+                            <p>Links úties para que os alunos</p>
+                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -235,14 +227,14 @@
                     <div class="card border-0 shadow-sm mb-2">
                         <img class="card-img-top mb-2" src="img/blog-2.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
-                            <h4 class="">Diam amet eos at no eos</h4>
+                            <h4 class="">União</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
                                 <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
-                            <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
+                            <p>Aula de convivência social entre os alunos matriculados</p>
+                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -250,14 +242,14 @@
                     <div class="card border-0 shadow-sm mb-2">
                         <img class="card-img-top mb-2" src="img/blog-3.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
-                            <h4 class="">Diam amet eos at no eos</h4>
+                            <h4 class="">Acompanhamento</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
                                 <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
-                            <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
+                            <p>Aulas extras para crianças abaixo de 8 anos</p>
+                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
