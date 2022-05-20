@@ -27,14 +27,12 @@ Route::get('/atividades',function(){
 
 #$_GET[]
 Route::get('/atividade/{id}', function($id){
-
-
 return view('atividade',['id' => $id]);
 });
 
 
 Route::get('/contato',[home::class,'contato']);
-
+ 
 Route::get('/materias', [materias::class,'index']);
 Route::get('/matematica', [materias::class,'matematica']);
 Route::get('/portugues', [materias::class,'portugues']);

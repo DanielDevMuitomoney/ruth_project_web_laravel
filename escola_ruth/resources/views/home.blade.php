@@ -68,7 +68,7 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Our Teachers</span></p>
+                <p class="section-title px-5"><span class="px-2">Professores</span></p>
                 <h1 class="mb-4">Alguns do nossos professores</h1>
             </div>
             <div class="row">
@@ -230,7 +230,7 @@
                             <h4 class="">União</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
+                                <small class="mr-3"><i class="fa fa-folder text-primary"></i> Professor</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
                             <p>Aula de convivência social entre os alunos matriculados</p>
@@ -245,7 +245,7 @@
                             <h4 class="">Acompanhamento</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
+                                <small class="mr-3"><i class="fa fa-folder text-primary"></i> Diretor</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
                             <p>Aulas extras para crianças abaixo de 8 anos</p>
@@ -265,9 +265,9 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
                     <i class="flaticon-043-teddy-bear"></i>
-                    <span class="text-white">KidKinder</span>
+                    <span class="text-white">Tempo de Aprender</span>
                 </a>
-                <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+                <p></p>
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
@@ -280,11 +280,11 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Get In Touch</h3>
+                <h3 class="text-primary mb-4">Acesse</h3>
                 <div class="d-flex">
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
                     <div class="pl-3">
-                        <h5 class="text-white">Address</h5>
+                        <h5 class="text-white">Endereço</h5>
                         <p>123 Street, New York, USA</p>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Quick Links</h3>
+                <h3 class="text-primary mb-4">Links rápidos</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
@@ -315,17 +315,17 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
+                <h3 class="text-primary mb-4">Comentário</h3>
                 <form action="">
                     <div class="form-group">
-                        <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+                        <input type="text" class="form-control border-0 py-4" placeholder="Seu nome" required="required" />
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
+                        <input type="email" class="form-control border-0 py-4" placeholder="Seu email"
                             required="required" />
                     </div>
                     <div>
-                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
+                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
