@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\crud;
 use App\Http\Controllers\materias;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\home;
@@ -37,4 +38,7 @@ Route::get('/materias', [materias::class,'index']);
 Route::get('/matematica', [materias::class,'matematica']);
 Route::get('/portugues', [materias::class,'portugues']);
 
-
+// vw_form
+Route::get('/login',[crud::class,'form_view']);
+//register data (data base)
+Route::post('/registrar',[crud::class,'register']);

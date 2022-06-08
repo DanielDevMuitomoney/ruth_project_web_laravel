@@ -11,20 +11,21 @@
 <body>
     @include('components.navbar')
     <div class="container" style="margin-top: 11vh;" >
+    <h1 style="text-align: center;">Bem Vindo à Matérias</h1>
     <!-- blade -->
     @foreach($materias as $k)
     <div class="card mb-3" style="max-width: 740px;margin: 0px auto;">
         <div class="row g-0">
             <div class="col-md-4">
-            <img src="{{$k['img']}}" class="img-fluid rounded-start" alt="...">
+            <img style="max-height: 190px;" src="{{$k['nm_path_img']}}" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title">{{$k['nome']}}</h5>
-                <p class="card-text">{{$k['desc']}}</p>
+                <h5 class="card-title">{{$k['nm_name']}}</h5>
+                <p class="card-text">{{$k['txt_desc']}}</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
-            <div style="text-align: center;margin-top: 9%;"> <a href="/atividade/{{$k['id']}}"><button style="width:30%;padding: 9px;" type="button" class="btn btn-success">Entrar</button></a></div>
+            <div style="text-align: center;padding:9px"> <a href="/atividade/{{$k['id']}}"><button style="width:30%;padding: 9px;" type="button" class="btn btn-success">Entrar</button></a></div>
             </div>
             
             </div>
