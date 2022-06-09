@@ -34,7 +34,7 @@ class crud extends Controller
        if($dado!=null){
         if($request->email_login ==$dado[0]['nm_email'] )
         {
-            return view('area_do_usuario',['data'=>$data,'dado'=>'logado']);
+            return view('area_do_usuario',['data'=>$data,'dado'=>'logado','credencias'=>$dado]);
         }
         }
     
