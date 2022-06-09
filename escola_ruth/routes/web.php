@@ -38,7 +38,20 @@ Route::get('/materias', [materias::class,'index']);
 Route::get('/matematica', [materias::class,'matematica']);
 Route::get('/portugues', [materias::class,'portugues']);
 
+
+Route::post('/autenticar',[crud::class,'logar_usuario']);
+
 // vw_form
-Route::get('/login',[crud::class,'form_view']);
+Route::get('/login2',[crud::class,'form_view']);
 //register data (data base)
 Route::post('/registrar',[crud::class,'register']);
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

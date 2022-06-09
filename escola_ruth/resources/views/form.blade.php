@@ -21,9 +21,10 @@
             <div class="form login">
                 <span class="title">Login</span>
 
-                <form action="#">
+                <form action="/autenticar" method="POST">
+                @csrf
                     <div class="input-field">
-                        <input type="text" placeholder="Email" required>
+                        <input type="text" placeholder="Email" id="email_login" name="email_login" required >
                         <i class="uil uil-envelope icon"></i>
                     </div>
                     <div class="input-field">
@@ -42,7 +43,7 @@
                     </div>
 
                     <div class="input-field button">
-                        <input type="button" value="Logar">
+                        <input type="submit" value="Logar">
                     </div>
                 </form>
 
