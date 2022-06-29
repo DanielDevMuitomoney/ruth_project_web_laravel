@@ -14,4 +14,8 @@ class home extends Controller
     {
         return view('contato');
     }
+    public function components()
+    {
+        return view('components');
+    }
 }

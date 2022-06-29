@@ -29,7 +29,7 @@
   <div class="card-body">
     <h5 class="card-title">Resenha do Livro</h5>
     <p class="card-text">Fazer uma resenha sobre o livro "O Auto da Compadecida"</p>
-    <a href="#" class="btn btn-primary">Entregar</a>
+    <a href="/atividade_ptbr" class="btn btn-primary">Entregar</a>
   </div>
   <div class="card-footer text-muted">
     Data de entrega: 2 de março

@@ -19,13 +19,15 @@ use App\Http\Controllers\home;
 Route::get('/', [home::class,'index']);
 
 
-
+Route::get('/componensts', [home::class,'components']);
 
 Route::get('/atividades',function(){
     return view('atividades');
 });
 
-
+Route::get('/atividade_ptbr',function(){
+    return view('atividade_portugues');
+});
 #$_GET[]
 Route::get('/atividade/{id}', function($id){
 return view('atividade',['id' => $id]);
